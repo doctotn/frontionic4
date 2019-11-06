@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Gestion_Stock</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-input [(ngModel)]="ref" placeholder="Entrer reference "></ion-input>
+<ion-input [(ngModel)]="quantite" placeholder="Entrer quantite "></ion-input>
+<ion-input [(ngModel)]="designation" placeholder="Entrer designation "></ion-input>
+<ion-input [(ngModel)]="prix" placeholder="Entrer prix "></ion-input>
+<ion-button (click)="ajouterproduit()">
+  <ion-icon name="add"></ion-icon>
+  Ajouter Produit
+</ion-button>
+
+</ion-content>
